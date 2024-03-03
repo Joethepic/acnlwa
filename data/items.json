@@ -1,0 +1,127 @@
+[
+	{
+		"name": "Day Changer",
+		"category": ["Tools"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Main Street",
+		"category": ["Locations"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Time Changer",
+		"category": ["Tools"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Tropical Island",
+		"category": ["Locations"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "June",
+		"category": ["Months"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "July",
+		"category": ["Months"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "August",
+		"category": ["Months"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "September",
+		"category": ["Months"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "November",
+		"category": ["Months"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "December",
+		"category": ["Months"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "January",
+		"category": ["Months"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "February",
+		"category": ["Months"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "March",
+		"category": ["Months"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "April",
+		"category": ["Months"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "May",
+		"category": ["Months"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Progressive Nookling Shop",
+		"category": ["Locations"],
+		"count":5,
+		"progression": true
+	},
+	{
+		"name": "Retail",
+		"category": ["Locations"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Nook Homes",
+		"category": ["Locations"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Able Sisters",
+		"category": ["Locations"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Leaf",
+		"count":30,
+		"category": [],
+		"progression": true
+	},
+	{
+		"name": "Must let next fish escape",
+		"trap": true,
+		"count": 32
+	}
+]

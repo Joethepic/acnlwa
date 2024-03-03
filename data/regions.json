@@ -1,0 +1,14 @@
+{
+	"Day 2": 	{
+		"requires": "|Main Street| AND |Day Changer| AND |Nook Homes| AND |Progressive Nookling Shop:1| AND |Retail|",
+		"connects_to": []
+	},
+	"Tropical Island": 	{
+		"connects_to": [],
+		"requires": "|Main Street| AND |Day Changer| AND |Nook Homes| AND |Progressive Nookling Shop:1| AND |Retail| AND |Tropical Island| AND |November|"
+},
+"House Built": 	{
+	"requires": "|Main Street| AND |Day Changer| AND |Nook Homes| AND |Progressive Nookling Shop:1| AND |Retail|",
+	"connects_to": []
+}
+}

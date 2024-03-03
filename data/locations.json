@@ -1,0 +1,601 @@
+[
+	{
+		"name": "Starting Check 1",
+		"category": ["Starting Locations"],
+		"place_item_category": ["Tools","Locations"],
+		"requires": []
+	},
+	{
+		"name": "Starting Check 2",
+		"category": ["Starting Locations"],
+		"requires": [],
+		"place_item_category": ["Tools","Locations"]
+	},
+	{
+		"name": "Starting Check 3",
+		"category": ["Starting Locations"],
+		"requires": []
+	},
+	{
+		"name": "Starting Check 4",
+		"category": ["Starting Locations"],
+		"requires": []
+	},
+	{
+		"name": "Starting Check 5",
+		"category": ["Starting Locations"],
+		"requires": []
+	},
+	{
+		"name": "Name your character",
+		"category": ["Setup"],
+		"requires": []
+	},
+	{
+		"name": "Name your Town",
+		"category": ["Setup"],
+		"requires": []
+	},
+	{
+		"name": "Name your Pick town map",
+		"category": ["Setup"],
+		"requires": []
+	},
+	{
+		"name": "Arrive at your town",
+		"category": ["Day 1"],
+		"requires": []
+	},
+	{
+		"name": "Meet the 1st villager",
+		"category": ["Greetings"],
+		"requires": []
+	},
+	{
+		"name": "Meet the 2nd villager",
+		"category": ["Greetings"],
+		"requires": []
+	},
+	{
+		"name": "Meet the 3rd villager",
+		"category": ["Greetings"],
+		"requires": []
+	},
+	{
+		"name": "Meet the 4th villager",
+		"category": ["Greetings"],
+		"requires": []
+	},
+	{
+		"name": "Meet the 5th villager",
+		"category": ["Greetings"],
+		"requires": []
+	},
+	{
+		"name": "Plant your house site",
+		"category": ["Day 1"],
+		"requires": "|Main Street| AND |Nook Homes|"
+	},
+	{
+		"name": "Receive the town pass card",
+		"category": ["Day 1"],
+		"requires": "|Main Street| AND |Nook Homes|"
+	},
+	{
+		"name": "Plant the town sapling",
+		"category": ["Day 1"],
+		"requires": "|Main Street| AND |Nook Homes|"
+	},
+	{
+		"name": "Buy the shovel",
+		"category": ["Day 1"],
+		"requires": "|Main Street| AND |Progressive Nookling Shop:1| AND |Retail| AND |Nook Homes|"
+	},
+	{
+		"name": "Buy the fishingrod/net",
+		"category": ["Day 1"],
+		"requires": "|Main Street| AND |Progressive Nookling Shop:1| AND |Retail| AND |Nook Homes|"
+	},
+	{
+		"name": "Pay off the house loan",
+		"category": ["Day 1"],
+		"requires": "|Main Street| AND |Progressive Nookling Shop:1| AND |Retail| AND |Nook Homes|"
+	},
+	{
+		"name": "Buy a fortune cookie",
+		"category": ["Day 1"],
+		"requires": "|Main Street| AND |Progressive Nookling Shop:1| AND |Nook Homes| AND |November| AND |Day Changer|"
+	},
+	{
+		"name": "Find the money rock",
+		"category": ["Day 1"],
+		"requires": "|Main Street| AND |Progressive Nookling Shop:1| AND |Retail| AND |Nook Homes|"
+	},
+	{
+		"name": "Find the ore rock",
+		"category": ["Day 1"],
+		"requires": "|Main Street| AND |Progressive Nookling Shop:1| AND |Retail| AND |Nook Homes|"
+	},
+	{
+		"name": "Write a letter to a animal",
+		"category": ["Day 1"],
+		"requires": "|Main Street| AND |Nook Homes|"
+	},
+	{
+		"name": "Collect seashell for Isabelle",
+		"category": ["Day 1"],
+		"requires": "|Main Street| AND |Nook Homes|"
+	},
+	{
+		"name": "Plant the fruit that Isabelle gives you",
+		"category": ["Day 1"],
+		"requires": "|Main Street| AND |Progressive Nookling Shop:1| AND |Retail| AND |Nook Homes|"
+	},
+	{
+		"name": "Catch fish or bugs for Isabelle",
+		"category": ["Day 1"],
+		"requires": "|Main Street| AND |Progressive Nookling Shop:1| AND |Retail| AND |Nook Homes|"
+	},
+	{
+		"name": "Water a flower in town",
+		"category": ["Day 1"],
+		"requires": "|Main Street| AND |Progressive Nookling Shop:1| AND |Retail| AND |Nook Homes|"
+	},
+	{
+		"name": "Meet Pete",
+		"region": "Day 2",
+		"category": [],
+		"requires": []
+	},
+	{
+		"name": "Have your house built",
+		"region": "House Built",
+		"category": [],
+		"requires": []
+	},
+	{
+		"name": "Get the town development permit",
+		"region": "House Built",
+		"category": [],
+		"requires": []
+	},
+	{
+		"name": "Go to the Tropical Island",
+		"region": "Tropical Island",
+		"category": []
+	},
+	{
+		"name": "Bitterling",
+		"region": "House Built",
+		"category": ["Fishsanity"],
+		"requires": "( |November| OR |December| OR |January| OR |February| )"
+	},
+	{
+		"name": "Collect 50 Leafs",
+		"requires": "|Leaf:20|",
+		"victory": true,
+		"category": []
+	},
+	{
+		"name": "Pale Chub",
+		"region": "House Built",
+		"category": ["Fishsanity"],
+		"requires": "|Time Changer|"
+	},
+	{
+		"name": "Crucian Carp",
+		"region": "House Built",
+		"category": ["Fishsanity"],
+		"requires": []
+	},
+	{
+		"name": "Dace",
+		"region": "House Built",
+		"category": ["Fishsanity"],
+		"requires": "|Time Changer|"
+	},
+	{
+		"name": "Barbel Steed",
+		"category": ["Fishsanity"],
+		"requires": []
+	},
+	{
+		"name": "Carp",
+		"category": ["Fishsanity"],
+		"requires": []
+	},
+	{
+		"name": "Koi",
+		"category": ["Fishsanity"],
+		"requires": "|Time Changer|"
+	},
+	{
+		"name": "Goldfish",
+		"category": ["Fishsanity"],
+		"requires": []
+	},
+	{
+		"name": "Pop-eyed goldfish",
+		"region": "Day 2",
+		"category": ["Fishsanity"],
+		"requires": "|Time Changer|"
+	},
+	{
+		"name": "Killifish",
+		"region": "Day 2",
+		"category": ["Fishsanity"],
+		"requires": "( |April| OR |May| OR |June| OR |July| )"
+	},
+	{
+		"name": "Crawfish",
+		"region": "Day 2",
+		"category": ["Fishsanity"],
+		"requires": "( |April| OR |May| OR |June| OR |July| )"
+	},
+	{
+		"name": "Soft-shelled turtle",
+		"region": "Day 2",
+		"category": ["Fishsanity"],
+		"requires": "|Time Changer| AND ( |August| OR |September| )"
+	},
+	{
+		"name": "Tadpole",
+		"region": "Day 2",
+		"category": ["Fishsanity"],
+		"requires": "( |March| OR |April| OR |May| OR |June| OR |July| )"
+	},
+	{
+		"name": "Frog",
+		"region": "Day 2",
+		"category": ["Fishsanity"],
+		"requires": "( |May| OR |June| OR |July| OR |August| )"
+	},
+	{
+		"name": "Freshwater goby",
+		"category": ["Fishsanity"],
+		"requires": "|Time Changer| ",
+		"region": "Day 2"
+	},
+	{
+		"name": "Loach",
+		"region": "Day 2",
+		"category": ["Fishsanity"],
+		"requires": "( |March| OR |April| OR |May| )"
+	},
+	{
+		"region": "Day 2",
+		"name": "Catfish",
+		"category": ["Fishsanity"],
+		"requires": "|Time Changer|"
+	},
+	{
+		"name": "Eel",
+		"region": "Day 2",
+		"category": ["Fishsanity"],
+		"requires": "( |June| OR |July| OR |August| )"
+	},
+	{
+		"name": "Giant Snakehead",
+		"region": "Day 2",
+		"category": ["Fishsanity"],
+		"requires": "( |June| OR |July| OR |August| )"
+	},
+	{
+		"name": "Bluegill",
+		"category": ["Fishsanity"],
+		"requires": "|Time Changer|",
+		"region": "Day 2"
+	},
+	{
+		"name": "Yellow Perch",
+		"region": "Day 2",
+		"category": ["Fishsanity"],
+		"requires": []
+	},
+	{
+		"name": "Black Bass",
+		"region": "Day 2",
+		"category": ["Fishsanity"],
+		"requires": []
+	},
+	{
+		"name": "Pike",
+		"region": "Day 2",
+		"category": ["Fishsanity"],
+		"requires": "|Time Changer|"
+	},
+	{
+		"name": "Pond Smelt",
+		"region": "Day 2",
+		"category": ["Fishsanity"],
+		"requires": "( |January| OR |February| OR |December| )\n"
+	},
+	{
+		"name": "Sweetfish",
+		"region": "Day 2",
+		"category": ["Fishsanity"],
+		"requires": "( |July| OR |August| )"
+	},
+	{
+		"name": "Cherry Salmon",
+		"region": "Day 2",
+		"category": ["Fishsanity"],
+		"requires": "|Time Changer|"
+	},
+	{
+		"name": "Char",
+		"category": ["Fishsanity"],
+		"requires": "|Time Changer|",
+		"region": "Day 2"
+	},
+	{
+		"name": "Rainbow Trout",
+		"region": "Day 2",
+		"category": ["Fishsanity"],
+		"requires": "|Time Changer|"
+	},
+	{
+		"name": "Stringfish",
+		"region": "Day 2",
+		"category": ["Fishsanity"],
+		"requires": "( |January| OR |February| OR |December| )"
+	},
+	{
+		"name": "Salmon",
+		"region": "Day 2",
+		"category": ["Fishsanity"],
+		"requires": "|September|"
+	},
+	{
+		"name": "King Salmon",
+		"region": "Day 2",
+		"category": ["Fishsanity"],
+		"requires": "|September|"
+	},
+	{
+		"region": "Day 2",
+		"name": "Mitten Crab",
+		"category": ["Fishsanity"],
+		"requires": "|Time Changer|"
+	},
+	{
+		"name": "Guppy ",
+		"category": ["Fishsanity"],
+		"requires": "|Time Changer|",
+		"region": "Day 2"
+	},
+	{
+		"name": "Nibble Fish",
+		"region": "Day 2",
+		"category": ["Fishsanity"],
+		"requires": "|Time Changer| AND ( |May| OR |June| OR |July| OR |August| OR |September| )"
+	},
+	{
+		"name": "Angelfish",
+		"region": "Day 2",
+		"category": ["Fishsanity"],
+		"requires": "|Time Changer|"
+	},
+	{
+		"name": "Neon tetra",
+		"category": ["Fishsanity"],
+		"requires": "|Time Changer|",
+		"region": "Day 2"
+	},
+	{
+		"name": "Piranha",
+		"region": "Day 2",
+		"category": ["Fishsanity"],
+		"requires": "( |June| OR |July| OR |August| ) AND |Time Changer|"
+	},
+	{
+		"name": "Arowana",
+		"region": "Day 2",
+		"category": ["Fishsanity"],
+		"requires": "( |June| OR |July| OR |August| ) AND |Time Changer|"
+	},
+	{
+		"region": "Day 2",
+		"name": "Dorado",
+		"category": ["Fishsanity"],
+		"requires": "( |June| OR |July| OR |August| OR |September| ) AND |Time Changer|"
+	},
+	{
+		"name": "Gar",
+		"region": "Day 2",
+		"category": ["Fishsanity"],
+		"requires": "|Time Changer| AND ( |June| OR |July| OR |August| ) "
+	},
+	{
+		"name": "Arapaima",
+		"region": "Day 2",
+		"category": ["Fishsanity"],
+		"requires": "( |July| OR |August| ) AND |Time Changer|"
+	},
+	{
+		"name": "Saddled bichir",
+		"region": "Day 2",
+		"category": ["Fishsanity"],
+		"requires": "( |June| OR |July| OR |August| OR |September| ) AND |Time Changer|"
+	},
+	{
+		"name": "Sea butterfly",
+		"region": "Day 2",
+		"category": ["Fishsanity"],
+		"requires": "( |December| OR |January| OR |February| ) AND |Time Changer|"
+	},
+	{
+		"name": "Sea horse",
+		"region": "Day 2",
+		"category": ["Fishsanity"],
+		"requires": "|Tropical Island| AND ( |April| OR |May| OR |June| OR |July| OR |August| OR |September| OR |November| )"
+	},
+	{
+		"name": "Clown fish",
+		"region": "Day 2",
+		"category": ["Fishsanity"],
+		"requires": "|Tropical Island| AND ( |April| OR |May| OR |June| OR |July| OR |August| OR |September| )"
+	},
+	{
+		"name": "Surgeonfish",
+		"region": "Day 2",
+		"category": ["Fishsanity"],
+		"requires": "|Tropical Island| AND ( |April| OR |May| OR |June| OR |July| OR |August| OR |September| )"
+	},
+	{
+		"name": "Butterfly fish",
+		"region": "Day 2",
+		"category": ["Fishsanity"],
+		"requires": "|Tropical Island| AND ( |April| OR |May| OR |June| OR |July| OR |August| OR |September| )"
+	},
+	{
+		"name": "Napoleonfish",
+		"region": "Day 2",
+		"category": ["Fishsanity"],
+		"requires": "( |July| OR |August| ) AND |Time Changer| AND |Tropical Island|"
+	},
+	{
+		"name": "Zebra turkeyfish",
+		"region": "Day 2",
+		"category": ["Fishsanity"],
+		"requires": "|Tropical Island|"
+	},
+	{
+		"name": "Blowfish",
+		"region": "Day 2",
+		"category": ["Fishsanity"],
+		"requires": "( |November| OR |December| OR |January| OR |February| )"
+	},
+	{
+		"name": "Puffer Fish",
+		"region": "Day 2",
+		"category": ["Fishsanity"],
+		"requires": "( |November| OR |December| OR |January| OR |February| ) AND |Tropical Island|"
+	},
+	{
+		"name": "Horse Mackerl",
+		"region": "Tropical Island",
+		"category": ["Fishsanity"],
+		"requires": []
+	},
+	{
+		"name": "barred knifejaw",
+		"region": "Tropical Island",
+		"category": ["Fishsanity"],
+		"requires": []
+	},
+	{
+		"name": "Sea Bass",
+		"region": "Tropical Island",
+		"category": ["Fishsanity"],
+		"requires": []
+	},
+	{
+		"name": "Red snapper",
+		"region": "Tropical Island",
+		"category": ["Fishsanity"],
+		"requires": []
+	},
+	{
+		"name": "Dab",
+		"region": "Day 2",
+		"category": ["Fishsanity"],
+		"requires": []
+	},
+	{
+		"name": "Olive Flounder",
+		"region": "Tropical Island",
+		"category": ["Fishsanity"],
+		"requires": []
+	},
+	{
+		"region": "Tropical Island",
+		"name": "Squid",
+		"category": ["Fishsanity"],
+		"requires": []
+	},
+	{
+		"name": "Moray eel",
+		"region": "Tropical Island",
+		"category": ["Fishsanity"],
+		"requires": []
+	},
+	{
+		"name": "Ribbon eel",
+		"region": "Tropical Island",
+		"category": ["Fishsanity"],
+		"requires": []
+	},
+	{
+		"name": "Football fish",
+		"region": "Day 2",
+		"category": ["Fishsanity"],
+		"requires": "( |November| OR |December| OR |January| OR |February| OR |March| )"
+	},
+	{
+		"name": "Tuna",
+		"region": "Day 2",
+		"category": ["Fishsanity"],
+		"requires": "( |November| OR |December| OR |January| OR |February| OR |March| )"
+	},
+	{
+		"name": "Blue Marlin",
+		"region": "Tropical Island",
+		"category": ["Fishsanity"],
+		"requires": "( |June| OR |July| OR |August| OR |September| )"
+	},
+	{
+		"region": "Tropical Island",
+		"name": "Giant trevally",
+		"category": ["Fishsanity"],
+		"requires": []
+	},
+	{
+		"name": "Ray",
+		"region": "Tropical Island",
+		"category": ["Fishsanity"],
+		"requires": "|Time Changer|"
+	},
+	{
+		"region": "Tropical Island",
+		"name": "Hammerhead shark",
+		"category": ["Fishsanity"],
+		"requires": "|Time Changer| AND ( |June| OR |July| OR |August| OR |September| )"
+	},
+	{
+		"name": "Ocean sunfish",
+		"region": "Tropical Island",
+		"category": ["Fishsanity"],
+		"requires": "|Time Changer| AND ( |June| OR |July| OR |August| OR |September| )"
+	},
+	{
+		"name": "Shark",
+		"region": "Tropical Island",
+		"category": ["Fishsanity"],
+		"requires": "( |June| OR |July| OR |August| OR |September| ) AND |Time Changer|"
+	},
+	{
+		"region": "Tropical Island",
+		"name": "Saw Shark",
+		"category": ["Fishsanity"],
+		"requires": "( |June| OR |July| OR |August| OR |September| ) AND |Time Changer|"
+	},
+	{
+		"name": "Whale Shark",
+		"region": "Tropical Island",
+		"category": ["Fishsanity"],
+		"requires": []
+	},
+	{
+		"name": "Oarfish",
+		"region": "Day 2",
+		"category": ["Fishsanity"],
+		"requires": "( |December| OR |January| OR |February| OR |March| OR |April| OR |May| ) AND |Time Changer|"
+	},
+	{
+		"name": "Coelacanth",
+		"region": "Day 2",
+		"category": ["Fishsanity"],
+		"requires": "|Time Changer|"
+	}
+]
