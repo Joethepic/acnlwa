@@ -119,12 +119,12 @@
 	{
 		"name": "Write a letter to a animal",
 		"category": ["Day 1"],
-		"requires": "|Main Street| AND |Nook Homes|"
+		"requires": "|Main Street| AND |Nook Homes| AND |Progressive Nookling Shop|"
 	},
 	{
 		"name": "Collect seashell for Isabelle",
 		"category": ["Day 1"],
-		"requires": "|Main Street| AND |Nook Homes|"
+		"requires": "|Main Street| AND |Nook Homes| AND |Progressive Nookling Shop|"
 	},
 	{
 		"name": "Plant the fruit that Isabelle gives you",
@@ -144,24 +144,637 @@
 	{
 		"name": "Meet Pete",
 		"region": "Day 2",
-		"category": [],
+		"category": ["Greetings"],
 		"requires": []
 	},
 	{
 		"name": "Have your house built",
 		"region": "House Built",
-		"category": [],
+		"category": ["Buildings"],
 		"requires": []
 	},
 	{
 		"name": "Get the town development permit",
 		"region": "House Built",
+		"category": ["Mayor duties"],
+		"requires": []
+	},
+	{
+		"name": "Meet the 6th villager",
+		"category": ["Greetings"],
+		"region": "Day 2",
+		"requires": []
+	},
+	{
+		"name": "Meet the 7th villager",
+		"category": ["Greetings"],
+		"region": "Day 2",
+		"requires": []
+	},
+	{
+		"name": "Meet the 8th villager",
+		"category": ["Greetings"],
+		"region": "Day 2",
+		"requires": []
+	},
+	{
+		"name": "Meet the 9th villager",
+		"category": ["Greetings"],
+		"region": "Day 2",
+		"requires": []
+	},
+	{
+		"name": "Meet the 10th villager",
+		"category": ["Greetings"],
+		"region": "House Built",
+		"requires": []
+	},
+	{
+		"name": "Meet Wisp",
+		"category": ["Greetings"],
+		"region": "Day 2",
+		"requires": []
+	},
+	{
+		"name": "Meet Harvey",
+		"category": ["Greetings"],
+		"requires": "|Campground|",
+		"region": "Day 2"
+	},
+	{
+		"name": "Order something from the campground",
+		"requires": "|Campground|",
+		"region": "Day 2",
+		"category": []
+	},
+	{
+		"name": "Find a perfect fruit",
+		"region": "Day 2",
 		"category": [],
 		"requires": []
 	},
 	{
+		"name": "Pick a Ordinance",
+		"region": "House Built",
+		"category": ["Mayor duties"],
+		"requires": []
+	},
+	{
+		"name": "Build Cobblestone Bridge",
+		"region": "Buildings",
+		"category": ["Public Work projects"],
+		"requires": []
+	},
+	{
+		"name": "Build Suspension Bridge",
+		"region": "Buildings",
+		"category": ["Public Work projects"],
+		"requires": []
+	},
+	{
+		"name": "Build yellow bench",
+		"region": "Buildings",
+		"category": ["Public Work projects"],
+		"requires": []
+	},
+	{
+		"name": "Build water well",
+		"region": "Buildings",
+		"category": ["Public Work projects"],
+		"requires": []
+	},
+	{
+		"name": "Build Fountain",
+		"region": "Buildings",
+		"category": ["Public Work projects"],
+		"requires": []
+	},
+	{
+		"name": "Build Park Clock",
+		"region": "Buildings",
+		"category": ["Public Work projects"],
+		"requires": []
+	},
+	{
+		"name": "Build Street Lamp",
+		"region": "Buildings",
+		"category": ["Public Work projects"],
+		"requires": []
+	},
+	{
+		"name": "Build Campsite",
+		"region": "Buildings",
+		"category": ["Public Work projects"],
+		"requires": []
+	},
+	{
+		"name": "Build Fence",
+		"region": "Buildings",
+		"category": ["Public Work projects"],
+		"requires": []
+	},
+	{
+		"name": "Build Fire Hydrant",
+		"region": "Buildings",
+		"category": ["Public Work projects"],
+		"requires": []
+	},
+	{
+		"name": "Build Custom Design Sign",
+		"region": "Buildings",
+		"category": ["Public Work projects"],
+		"requires": []
+	},
+	{
+		"name": "Build Face cutout standee",
+		"region": "Buildings",
+		"category": ["Public Work projects"],
+		"requires": []
+	},
+	{
+		"name": "Build do not enter sign",
+		"region": "Buildings",
+		"category": ["Public Work projects"],
+		"requires": []
+	},
+	{
 		"name": "Go to the Tropical Island",
-		"region": "Tropical Island",
+		"region": "House Built",
+		"requires": "|Tropical Island|",
+		"category": []
+	},
+	{
+		"name": "Get more space in your main floor 1",
+		"region": "House Built",
+		"category": ["Upgrades"],
+		"requires": []
+	},
+	{
+		"name": "Get more space in your main floor 2",
+		"region": "Buildings",
+		"category": ["Upgrades"],
+		"requires": []
+	},
+	{
+		"name": "Get more space in your main floor 3",
+		"region": "Buildings",
+		"category": ["Upgrades"],
+		"requires": []
+	},
+	{
+		"name": "Add second floor in house",
+		"region": "Buildings",
+		"category": ["Upgrades"],
+		"requires": []
+	},
+	{
+		"name": "Bigger second floor 1",
+		"region": "Buildings",
+		"category": ["Upgrades"],
+		"requires": []
+	},
+	{
+		"name": "Bigger second floor 2",
+		"region": "Buildings",
+		"category": ["Upgrades"],
+		"requires": []
+	},
+	{
+		"name": "Build Left room",
+		"region": "Buildings",
+		"category": ["Upgrades"],
+		"requires": "|November|"
+	},
+	{
+		"name": "Build Right room",
+		"region": "Buildings",
+		"category": ["Upgrades"],
+		"requires": "|November|"
+	},
+	{
+		"name": "Build Top room",
+		"region": "Buildings",
+		"category": ["Upgrades"],
+		"requires": "|November|"
+	},
+	{
+		"name": "Bigger Top room 1",
+		"region": "Buildings",
+		"category": ["Upgrades"],
+		"requires": []
+	},
+	{
+		"name": "Bigger Top room 2",
+		"region": "Buildings",
+		"category": ["Upgrades"],
+		"requires": []
+	},
+	{
+		"name": "Bigger left room 1",
+		"region": "Buildings",
+		"category": ["Upgrades"],
+		"requires": []
+	},
+	{
+		"name": "Bigger left room 2",
+		"region": "Buildings",
+		"category": ["Upgrades"],
+		"requires": []
+	},
+	{
+		"name": "Bigger right room 1",
+		"region": "Buildings",
+		"category": ["Upgrades"],
+		"requires": []
+	},
+	{
+		"name": "Bigger right room 2",
+		"region": "Buildings",
+		"category": ["Upgrades"],
+		"requires": []
+	},
+	{
+		"name": "Build House Basement",
+		"region": "Buildings",
+		"category": ["Upgrades"],
+		"requires": "|November|"
+	},
+	{
+		"name": "Bigger House Basement 1",
+		"region": "Buildings",
+		"category": ["Upgrades"],
+		"requires": "|November|"
+	},
+	{
+		"name": "Bigger House Basement 2",
+		"region": "Buildings",
+		"category": ["Upgrades"],
+		"requires": "|November|"
+	},
+	{
+		"name": "Build House Storage",
+		"region": "Buildings",
+		"category": ["Upgrades"],
+		"requires": "|November|"
+	},
+	{
+		"name": "Fully upgrade your house",
+		"region": "Buildings",
+		"requires": "|November| AND |December|",
+		"category": []
+	},
+	{
+		"name": "Holloween",
+		"region": "Holidays",
+		"category": ["Holidays"],
+		"requires": []
+	},
+	{
+		"name": "Holloween - Scare 1 villager",
+		"region": "Holidays",
+		"category": ["Holidays"],
+		"requires": "|Time Changer|"
+	},
+	{
+		"name": "Holloween - Obtain 1 jack o laturn",
+		"region": "Holidays",
+		"category": ["Holidays"],
+		"requires": "|Time Changer|"
+	},
+	{
+		"name": "Fishing Tourney - October",
+		"region": "Holidays",
+		"category": ["Holidays"],
+		"requires": []
+	},
+	{
+		"name": "Fishing Tourney - October - 1st place",
+		"region": "Holidays",
+		"category": ["Holidays"],
+		"requires": []
+	},
+	{
+		"name": "Harvest Festival",
+		"region": "Holidays",
+		"category": ["Holidays"],
+		"requires": "|November|"
+	},
+	{
+		"name": "Harvest Festival - Create the salad",
+		"region": "Holidays",
+		"category": ["Holidays"],
+		"requires": "|November|"
+	},
+	{
+		"name": "Harvest Festival - Create the soup",
+		"region": "Holidays",
+		"category": ["Holidays"],
+		"requires": "|November|"
+	},
+	{
+		"name": "Harvest Festival - Create the main course",
+		"region": "Holidays",
+		"category": ["Holidays"],
+		"requires": "|November|"
+	},
+	{
+		"name": "Harvest Festival - Create the dessert",
+		"region": "Holidays",
+		"category": ["Holidays"],
+		"requires": "|November|"
+	},
+	{
+		"name": "Harvest Festival - Use 1 secret ingredient",
+		"region": "Holidays",
+		"category": ["Holidays"],
+		"requires": "|November|"
+	},
+	{
+		"name": "Play before 8 p.m/2000 on the winter solstice",
+		"region": "Holidays",
+		"category": ["Holidays"],
+		"requires": "|November| AND |December| AND |Time Changer|"
+	},
+	{
+		"name": "Complete everyone's present correctly on Toy Day",
+		"region": "Holidays",
+		"category": ["Holidays"],
+		"requires": "|November| AND |December| AND |Time Changer|"
+	},
+	{
+		"name": "Toy Day",
+		"region": "Holidays",
+		"category": ["Holidays"],
+		"requires": "|December|"
+	},
+	{
+		"name": "New Year's Eve",
+		"region": "Holidays",
+		"category": ["Holidays"],
+		"requires": "|December|"
+	},
+	{
+		"name": "New Year's Eve Watch the ball drop",
+		"region": "Holidays",
+		"category": ["Holidays"],
+		"requires": "|December| AND |Time Changer| AND |January|"
+	},
+	{
+		"name": "Groundhog Day",
+		"region": "Holidays",
+		"category": ["Holidays"],
+		"requires": "|December| AND |February|"
+	},
+	{
+		"name": "Player's Birthday",
+		"region": "Holidays",
+		"category": ["Holidays"],
+		"requires": "|February|"
+	},
+	{
+		"name": "Valentine's Day",
+		"region": "Holidays",
+		"category": ["Holidays"],
+		"requires": "|December| AND |February|"
+	},
+	{
+		"name": "Festivale",
+		"region": "Holidays",
+		"category": ["Holidays"],
+		"requires": "|December| AND |February|"
+	},
+	{
+		"name": "Festivale - Get red feather",
+		"region": "Holidays",
+		"category": ["Holidays"],
+		"requires": "|Time Changer| AND |February|"
+	},
+	{
+		"name": "Festivale - Get white feather",
+		"region": "Holidays",
+		"category": ["Holidays"],
+		"requires": "|Time Changer| AND |February|"
+	},
+	{
+		"name": "Festivale - Get purple feather",
+		"region": "Holidays",
+		"category": ["Holidays"],
+		"requires": "|Time Changer| AND |February|"
+	},
+	{
+		"name": "Festivale - Get green feather",
+		"region": "Holidays",
+		"category": ["Holidays"],
+		"requires": "|Time Changer| AND |February|"
+	},
+	{
+		"name": "Festivale - Get blue feather",
+		"region": "Holidays",
+		"category": ["Holidays"],
+		"requires": "|Time Changer| AND |February|"
+	},
+	{
+		"name": "Festivale - Get yellow feather",
+		"region": "Holidays",
+		"category": ["Holidays"],
+		"requires": "|Time Changer| AND |February|"
+	},
+	{
+		"name": "Festivale - Get pink feather",
+		"region": "Holidays",
+		"category": ["Holidays"],
+		"requires": "|Time Changer| AND |February|"
+	},
+	{
+		"name": "Festivale - Get rainbow feather",
+		"region": "Holidays",
+		"category": ["Holidays"],
+		"requires": "|Time Changer| AND |February|"
+	},
+	{
+		"name": "Shamrock Day",
+		"region": "Holidays",
+		"category": ["Holidays"],
+		"requires": "|Time Changer| AND |March|"
+	},
+	{
+		"name": "Bunny Day",
+		"region": "Holidays",
+		"category": ["Holidays"],
+		"requires": "|Time Changer| AND |March|"
+	},
+	{
+		"name": "Bunny Day - Get a Earth egg",
+		"region": "Holidays",
+		"category": ["Holidays"],
+		"requires": "|Time Changer| AND |March|"
+	},
+	{
+		"name": "Bunny Day - Get a Tree egg",
+		"region": "Holidays",
+		"category": ["Holidays"],
+		"requires": "|Time Changer| AND |March|"
+	},
+	{
+		"name": "Bunny Day - Get a Stone egg",
+		"region": "Holidays",
+		"category": ["Holidays"],
+		"requires": "|Time Changer| AND |March|"
+	},
+	{
+		"name": "Bunny Day - Get a Sky egg",
+		"region": "Holidays",
+		"category": ["Holidays"],
+		"requires": "|Time Changer| AND |March| AND |Progressive Nookling Shop:2|"
+	},
+	{
+		"name": "Bunny Day - Get a Water egg",
+		"region": "Holidays",
+		"category": ["Holidays"],
+		"requires": "|Time Changer| AND |March|"
+	},
+	{
+		"name": "Bunny Day - Get a Deep Sea egg",
+		"region": "Holidays",
+		"category": ["Holidays"],
+		"requires": "|Time Changer| AND |March| AND |Tropical Island|"
+	},
+	{
+		"name": "Apil Fools",
+		"region": "Holidays",
+		"category": ["Holidays"],
+		"requires": "|April|"
+	},
+	{
+		"name": "Apil Fools - Find out the fake on all your villagers",
+		"region": "Holidays",
+		"category": ["Holidays"],
+		"requires": "|April|"
+	},
+	{
+		"name": "Weeding Day",
+		"region": "Holidays",
+		"category": ["Holidays"],
+		"requires": "|April|"
+	},
+	{
+		"name": "Nature Day",
+		"region": "Holidays",
+		"category": ["Holidays"],
+		"requires": "|April|"
+	},
+	{
+		"name": "Mother's Day",
+		"region": "Holidays",
+		"category": ["Holidays"],
+		"requires": "|May|"
+	},
+	{
+		"name": "Play after 8 p.m/2000 on the summer solstice",
+		"region": "Holidays",
+		"category": ["Holidays"],
+		"requires": "|June| AND |Time Changer|"
+	},
+	{
+		"name": "Bug Off June",
+		"region": "Holidays",
+		"category": ["Holidays"],
+		"requires": "|June|"
+	},
+	{
+		"name": "Father's Day",
+		"region": "Holidays",
+		"category": ["Holidays"],
+		"requires": "|June|"
+	},
+	{
+		"name": "Bug Off July",
+		"region": "Holidays",
+		"category": ["Holidays"],
+		"requires": "|July|"
+	},
+	{
+		"name": "Bug Off August",
+		"region": "Holidays",
+		"category": ["Holidays"],
+		"requires": "|August|"
+	},
+	{
+		"name": "Bug Off September",
+		"region": "Holidays",
+		"category": ["Holidays"],
+		"requires": "|September|"
+	},
+	{
+		"name": "Fireworks Show",
+		"region": "Holidays",
+		"category": ["Holidays"],
+		"requires": "|August|"
+	},
+	{
+		"name": "Labor Day",
+		"region": "Holidays",
+		"category": ["Holidays"],
+		"requires": "|September|"
+	},
+	{
+		"name": "Explorer's Day",
+		"region": "Holidays",
+		"category": ["Holidays"],
+		"requires": []
+	},
+	{
+		"name": "Have the T and T Mart built",
+		"region": "Buildings",
+		"category": ["Buildings"],
+		"requires": []
+	},
+	{
+		"name": "Have the Super T and T built",
+		"region": "Buildings",
+		"category": ["Buildings"],
+		"requires": []
+	},
+	{
+		"name": "Have the TIY built",
+		"region": "Buildings",
+		"category": ["Buildings"],
+		"requires": []
+	},
+	{
+		"name": "Have the T and T Emporium built",
+		"region": "Buildings",
+		"category": ["Buildings"],
+		"requires": []
+	},
+	{
+		"name": "Have the T and T Emporium built ",
+		"region": "Buildings",
+		"category": ["Buildings"],
+		"requires": []
+	},
+	{
+		"name": "Build Kicks",
+		"region": "Buildings",
+		"category": ["Buildings"],
+		"requires": []
+	},
+	{
+		"name": "Build Shampoodle",
+		"region": "Buildings",
+		"category": ["Buildings"],
+		"requires": []
+	},
+	{
+		"name": "Have the garden shop built",
+		"region": "Buildings",
+		"category": ["Buildings"],
+		"requires": []
+	},
+	{
+		"name": "Unlock The Sewing Machine",
+		"region": "Day 2",
+		"requires": "|Able Sisters|",
 		"category": []
 	},
 	{
@@ -172,7 +785,7 @@
 	},
 	{
 		"name": "Collect 50 Leafs",
-		"requires": "|Leaf:20|",
+		"requires": "|Leaf:50|",
 		"victory": true,
 		"category": []
 	},
@@ -197,12 +810,12 @@
 	{
 		"name": "Barbel Steed",
 		"category": ["Fishsanity"],
-		"requires": "|Main Street| AND |Nook Homes|"
+		"requires": "|Main Street| AND |Nook Homes| AND |Progressive Nookling Shop| AND |Retail|"
 	},
 	{
 		"name": "Carp",
 		"category": ["Fishsanity"],
-		"requires": "|Main Street| AND |Nook Homes|"
+		"requires": "|Main Street| AND |Nook Homes| AND |Progressive Nookling Shop| AND |Retail|"
 	},
 	{
 		"name": "Koi",
@@ -212,7 +825,7 @@
 	{
 		"name": "Goldfish",
 		"category": ["Fishsanity"],
-		"requires": "|Main Street| AND |Nook Homes|"
+		"requires": "|Main Street| AND |Nook Homes| AND |Progressive Nookling Shop| AND |Retail|"
 	},
 	{
 		"name": "Pop-eyed goldfish",
@@ -597,5 +1210,80 @@
 		"region": "Day 2",
 		"category": ["Fishsanity"],
 		"requires": "|Time Changer|"
-	}
+	},
+	{
+		"name": "Common butterfly",
+		"region": "Day 2",
+		"category": ["Bugsanity"],
+		"requires": "( |March| OR |April| OR |May| OR |June| OR |September| )"
+	},
+	{
+		"name": "Yellow butterfly",
+		"region": "Day 2",
+		"category": ["Bugsanity"],
+		"requires": "( |March| OR |April| OR |May| OR |June| OR |September| )"
+	},
+	{
+		"name": "Tiger butterfly",
+		"region": "Tropical Island",
+		"category": ["Bugsanity"],
+		"requires": "( |March| OR |April| OR |May| OR |June| OR |July| OR |August| OR |September| )"
+	},
+	{
+		"name": "Peacock butterfly",
+		"region": "Tropical Island",
+		"category": ["Bugsanity"],
+		"requires": "( |March| OR |April| OR |May| OR |June| OR |July| OR |August| OR |September| )"
+	},
+	{
+		"name": "Monarch butterfly",
+		"category": ["Bugsanity"],
+		"requires": "|Main Street| AND |Nook Homes| AND |Progressive Nookling Shop| AND |Retail|"
+	},
+	{
+		"name": "Emperor butterfly",
+		"region": "Day 2",
+		"category": ["Bugsanity"],
+		"requires": "( |June| OR |July| OR |August| OR |September| )"
+	},
+	{
+		"name": "Raja B Butterfly",
+		"region": "Day 2",
+		"category": ["Bugsanity"],
+		"requires": "( |May| OR |June| OR |July| OR |August| OR |September| )"
+	},
+	{
+		"name": "Birdwing butterfly",
+		"region": "Day 2",
+		"category": ["Bugsanity"],
+		"requires": "( |June| OR |July| OR |August| OR |September| )"
+	},
+	{
+		"name": "Moth",
+		"region": "Day 2",
+		"category": ["Bugsanity"],
+		"requires": "( |June| OR |July| OR |August| )"
+	},
+	{
+		"name": "Oak silk Moth",
+		"region": "Day 2",
+		"category": ["Bugsanity"],
+		"requires": "( |June| OR |July| OR |August| OR |September| )"
+	},
+	{
+		"name": "Honeybee",
+		"region": "Day 2",
+		"category": ["Bugsanity"],
+		"requires": "( |June| OR |July| OR |August| OR |September| )"
+	},
+	{
+		"name": "Bee",
+		"category": ["Bugsanity"],
+		"requires": "|Main Street| AND |Nook Homes| AND |Progressive Nookling Shop| AND |Retail|"
+	},
+	{
+		"name": "Long Locust",
+		"category": ["Bugsanity"],
+		"requires": "|Main Street| AND |Nook Homes| AND |Progressive Nookling Shop| AND |Retail|"
+	},
 ]
