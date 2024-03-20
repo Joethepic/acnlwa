@@ -197,12 +197,12 @@
 	{
 		"name": "Barbel Steed",
 		"category": ["Fishsanity"],
-		"requires": []
+		"requires": "|Main Street| AND |Nook Homes|"
 	},
 	{
 		"name": "Carp",
 		"category": ["Fishsanity"],
-		"requires": []
+		"requires": "|Main Street| AND |Nook Homes|"
 	},
 	{
 		"name": "Koi",
@@ -212,7 +212,7 @@
 	{
 		"name": "Goldfish",
 		"category": ["Fishsanity"],
-		"requires": []
+		"requires": "|Main Street| AND |Nook Homes|"
 	},
 	{
 		"name": "Pop-eyed goldfish",
